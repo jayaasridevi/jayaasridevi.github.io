@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaya Sri Devi Chodisetti | Civil Engineer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #faf7f1; }
+    .heading { font-family: 'Playfair Display', serif; }
+    .fade { opacity: 0; transform: translateY(40px); transition: 0.8s ease-out; }
+    .show { opacity: 1; transform: translateY(0); }
+    .card {
+      background: rgba(255, 255, 255, 0.75);
+      border: 1px solid rgba(229, 197, 85, 0.25);
+      border-radius: 1.5rem;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      backdrop-filter: blur(12px);
+      transition: all 0.35s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+
+<body class="text-gray-900">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 w-full z-50 backdrop-blur-lg bg-white/80 shadow-md border-b border-yellow-200/50">
+  <div class="max-w-7xl mx-auto py-4 px-6 flex justify-between items-center">
+    <h1 class="heading text-2xl font-bold text-yellow-700">JSD</h1>
+    <div class="hidden md:flex space-x-6 font-medium">
+      <a href="#profile" class="hover:text-yellow-700 transition">Profile</a>
+      <a href="#education" class="hover:text-yellow-700 transition">Education</a>
+      <a href="#experience" class="hover:text-yellow-700 transition">Experience</a>
+      <a href="#projects" class="hover:text-yellow-700 transition">Projects</a>
+      <a href="#skills" class="hover:text-yellow-700 transition">Skills</a>
+      <a href="#certifications" class="hover:text-yellow-700 transition">Certifications</a>
+      <a href="#contact" class="hover:text-yellow-700 transition">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="relative pt-44 pb-24 px-6 text-center overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-yellow-200/50 via-yellow-50 to-transparent"></div>
+
+  <div class="relative z-10 max-w-3xl mx-auto fade">
+    <h1 class="heading text-5xl md:text-6xl font-bold text-gray-900 mb-4">Jaya Sri Devi Chodisetti</h1>
+    <p class="text-xl text-yellow-700 font-semibold">Aspiring Civil Engineer</p>
+    <p class="text-gray-700 text-lg max-w-xl mx-auto mt-3">
+      Passionate about transportation systems, sustainable design, and human-centered infrastructure.
+    </p>
+
+    <div class="mt-8 flex justify-center gap-4 flex-wrap">
+      <a href="Jaya%20Sridevi%20Resume.pdf" download class="bg-yellow-700 hover:bg-yellow-800 text-white px-6 py-3 rounded-full shadow transition">
+        Download Resume
+      </a>
+      <a href="https://www.linkedin.com/in/jayasridevi" class="border border-yellow-700 text-yellow-700 hover:bg-yellow-700 hover:text-white px-6 py-3 rounded-full shadow transition">
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="max-w-5xl mx-auto py-20 px-6 fade">
+  <h2 class="heading text-4xl font-semibold text-center mb-12">Profile</h2>
+  <div class="card">
+    <p class="text-lg text-gray-700 leading-relaxed">
+      A disciplined and motivated Civil Engineering student with practical experience  
+      in traffic surveys, transportation systems engineering, and field-based  
+      data collection. Strong analytical ability and passion for solving real-world  
+      infrastructure challenges.
+    </p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="max-w-5xl mx-auto py-20 px-6 fade">
+  <h2 class="heading text-4xl font-semibold text-center mb-12">Education</h2>
+
+  <div class="grid md:grid-cols-2 gap-10">
+
+    <div class="card">
+      <h3 class="font-bold text-2xl text-yellow-700">B.Tech — Civil Engineering</h3>
+      <p class="text-gray-700 mt-2">RGUKT (2021–2025)</p>
+      <p class="text-gray-500 font-medium mt-3">CGPA: 8.4</p>
+    </div>
+
+    <div class="card">
+      <h3 class="font-bold text-2xl text-yellow-700">PUC — MPC</h3>
+      <p class="text-gray-700 mt-2">RGUKT (2019–2021)</p>
+      <p class="text-gray-500 font-medium mt-3">CGPA: 8.6</p>
+    </div>
+
+    <div class="card md:col-span-2">
+      <h3 class="font-bold text-2xl text-yellow-700">SSC</h3>
+      <p class="text-gray-700 mt-2">Mzp High School (2018–2019)</p>
+      <p class="text-gray-500 font-medium mt-3">CGPA: 10.0</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="max-w-5xl mx-auto py-20 px-6 fade">
+  <h2 class="heading text-4xl font-semibold text-center mb-12">Experience</h2>
+
+  <div class="space-y-10">
+
+    <div class="card">
+      <h3 class="font-bold text-2xl text-yellow-700">Indian Institute of Technology Hyderabad (IITH)</h3>
+      <p class="text-gray-700 font-medium mt-1">Intern — Transportation Systems Engineering Lab</p>
+      <p class="text-gray-500 mb-4">Nov 2025 – Dec 2025</p>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Worked on the research project <strong>“Pedestrian Perception of Skywalks.”</strong></li>
+        <li>Performed data collection and research-based analysis.</li>
+        <li>Demonstrated discipline, dedication, and consistency.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="font-bold text-2xl text-yellow-700">Roadworks Engineering Consultants Pvt. Ltd.</h3>
+      <p class="text-gray-700 font-medium mt-1">Intern — Trainee Engineer</p>
+      <p class="text-gray-500 mb-4">May 2024 – Sep 2024</p>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Conducted CVC surveys improving accuracy by 20%.</li>
+        <li>Assisted in origin & destination (O&D) surveys.</li>
+        <li>Contributed to traffic flow analysis and planning insights.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="max-w-5xl mx-auto py-20 px-6 fade">
+  <h2 class="heading text-4xl font-semibold text-center mb-12">Projects</h2>
+
+  <div class="grid md:grid-cols-2 gap-10">
+    <div class="card">
+      <h3 class="font-bold text-xl text-yellow-700 mb-2">Public Awareness of Vehicular Emissions (2025)</h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Designed and distributed structured surveys.</li>
+        <li>Analyzed awareness trends.</li>
+        <li>Proposed emission reduction strategies.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="font-bold text-xl text-yellow-700 mb-2">Traffic Surveys (2025)</h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Conducted CVC surveys.</li>
+        <li>Supported O&D data collection.</li>
+        <li>Contributed to transport modelling insights.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="max-w-5xl mx-auto py-20 px-6 fade">
+  <h2 class="heading text-4xl font-semibold text-center mb-12">Skills</h2>
+
+  <div class="grid md:grid-cols-2 gap-10">
+    <div class="card">
+      <h3 class="font-bold text-xl text-yellow-700 mb-3">Soft Skills</h3>
+      <ul class="space-y-2 text-gray-700">
+        <li>Communication</li>
+        <li>Leadership</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="font-bold text-xl text-yellow-700 mb-3">Technical Skills</h3>
+      <ul class="space-y-2 text-gray-700">
+        <li>Surveying, Traffic Analysis</li>
+        <li>Data Collection & Interpretation</li>
+        <li>AutoCAD, Revit, MS Office</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="certifications" class="max-w-5xl mx-auto py-20 px-6 fade">
+  <h2 class="heading text-4xl font-semibold text-center mb-14">Certifications</h2>
+
+  <div class="grid md:grid-cols-3 gap-8">
+
+    <!-- Card 1 -->
+    <div class="card text-center">
+      <div class="text-yellow-700 text-4xl mb-3">📘</div>
+      <h3 class="font-bold text-xl text-yellow-700">Machine Learning & AI</h3>
+      <p class="text-gray-600 mt-2">EdX — 2024</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card text-center">
+      <div class="text-yellow-700 text-4xl mb-3">🚦</div>
+      <h3 class="font-bold text-xl text-yellow-700">Traffic Surveys Training</h3>
+      <p class="text-gray-600 mt-2">REC Pvt. Ltd — 2024</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card text-center">
+      <div class="text-yellow-700 text-4xl mb-3">📐</div>
+      <h3 class="font-bold text-xl text-yellow-700">AutoCAD</h3>
+      <p class="text-gray-600 mt-2">Academor — 2025</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="text-center py-20 bg-yellow-100 fade">
+  <h2 class="heading text-4xl font-semibold mb-6">Contact</h2>
+  <p class="text-gray-700 text-lg">📧 jayasridevi919@gmail.com</p>
+  <p class="text-gray-700 text-lg mb-4">📱 +91 79815 49757</p>
+  <a href="https://www.linkedin.com/in/jayasridevi" class="text-yellow-700 underline text-lg">Visit LinkedIn</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 text-gray-600 text-sm">
+  © 2025 Jaya Sri Devi Chodisetti · All rights reserved.
+</footer>
+
+<!-- ANIMATION SCRIPT -->
+<script>
+  document.querySelectorAll('.fade').forEach(el => {
+    new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('show');
+      });
+    }, { threshold: 0.2 }).observe(el);
+  });
+</script>
+
+</body>
+</html>
